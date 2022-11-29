@@ -7,11 +7,11 @@ package sqlc_test
 
 import (
     "context"
-    "database/sql"
+    "github.com/jackc/pgx/v5"
     "log"
 
-    "github.com/yiplee/sqlc"
-    "github.com/yiplee/sqlc/example"
+    "github.com/MindMayhem/sqlc-builder"
+    "github.com/MindMayhem/sqlc-builder/example"
 )
 
 func Example_build() {

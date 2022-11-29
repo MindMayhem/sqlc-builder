@@ -1,5 +1,7 @@
-module github.com/yiplee/sqlc
+module github.com/MindMayhem/sqlc-builder
 
 go 1.13
 
-require github.com/yiplee/nap v1.0.1
+require (
+	github.com/jackc/pgx/v5 v5.1.1 // indirect
+)
